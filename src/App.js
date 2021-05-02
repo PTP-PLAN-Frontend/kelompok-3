@@ -8,6 +8,10 @@ import Cultivation from './component/Cards';
 import Simplisia from './component/pages/Simplisia';
 import Rhizoma from './component/pages/Rhizoma';
 import AlangAlang from './component/Alang-alang';
+import Kencur from './component/Kencur';
+import Kunyit from './component/Kunyit';
+import Bawangmerah from './component/Bawangmerah';
+import Jahemerah from './component/Jahemerah';
 
 function App() {
   return (
@@ -22,6 +26,10 @@ function App() {
           <Route path='/simplisia' component={Simplisia} />
           <Route path='/rhizoma' component={Rhizoma} />
           <Route path='/Alang-alang' component={AlangAlang} />
+          <Route path='/kencur' component={Kencur} />
+          <Route path='/kunyit' component={Kunyit} />
+          <Route path='/jahemerah' component={Jahemerah} />
+          <Route path='/bawangmerah' component={Bawangmerah} />
         </Switch>
       </Router>
     </>
