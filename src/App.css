@@ -9,8 +9,7 @@
 .about,
 .article,
 .simplisia,
-.rhizoma,
-.cultivation {
+.rhizoma {
   display: flex;
   height: 80vh;
   align-items: center;
@@ -28,16 +27,7 @@
 }
 
 .about {
-  background-image: url('./component/images/img-1.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.article {
-  background-image: url('./component/images/img-1.jpg');
+  background-image: url('./component/images/header-about.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -62,12 +52,73 @@
   color: #fff;
   font-size: 100px;
 }
-
-.cultivation {
-  background-image: url('./component/images/img-1.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+.home-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 10px;
+  margin: 10px;
+  
 }
+.img-home{
+  height: 60px;
+  width: auto;
+  margin: 0;
+}
+.card-wrapper {
+  width: calc((100% - 50px)/2);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+  }
+.card-image{
+  width: 30rem;
+}
+@media only screen and (max-width: 1280px) {
+  .card-wrapper {
+    width: calc((100% - 50px)/2);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    }
+  }
+@media only screen and (max-width: 1200px) {
+  .card-wrapper {
+    width: calc((100% - 40px)/2);
+    margin-bottom: 40px;
+    margin-right: 40px;
+    }
+  .card-image{
+    width: 25rem;
+    }
+  }
+@media only screen and (max-width: 949px) {
+  .card-wrapper {
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    }
+  .card-image{
+    width: 20rem;
+    }
+  }
+@media only screen and (max-width: 750px) {
+  .card-wrapper {
+    width: calc((100% - 20px)/2);
+    margin-bottom: 20px;
+    margin-right: 20px;
+    }
+  .card-image{
+      width: 15rem;
+  }
+  } 
+@media only screen and (max-width: 599px) {
+  .card-wrapper {
+    width: 100%;
+    margin-bottom: 40px;
+    margin-right: 0;
+    }
+  .card-image{
+    width: 10rem;
+    }
+  }
