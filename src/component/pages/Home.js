@@ -131,7 +131,7 @@ function Resep() {
               <Collapse in={open}>
                 <div id="example-collapse-text">
                   <p style={{ paddingTop: 15 }}>Bahan</p>
-                  <ul>
+                  <ul style={{ padding: 15 }}>
                     <li>1 rimpang jahe (memarkan)</li>
                     <li>2 sdm madu</li>
                     <li>1/2 buah lemon (peras airnya)</li>
@@ -141,7 +141,7 @@ function Resep() {
                     </li>
                   </ul>
                   <p>Cara Membuat</p>
-                  <ul>
+                  <ul style={{ padding: 15 }}>
                     <li>
                       Rebus jahe dan air hingga mendidih serta keluar aroma
                       harumnya.
@@ -181,14 +181,14 @@ function Resep() {
               <Collapse in={open2}>
                 <div id="example-collapse-text">
                   <p style={{ paddingTop: 15 }}>Bahan</p>
-                  <ul>
+                  <ul style={{ padding: 15 }}>
                     <li>600 ml air</li>
                     <li>100 gram gula jawa, sisir</li>
                     <li>20 gr asam jawa</li>
                     <li>8 buah kunyit ukuran besar</li>
                   </ul>
                   <p>Cara Membuat</p>
-                  <ul>
+                  <ul style={{ padding: 15 }}>
                     <li>
                       Cuci bersih kunyit yang masih segar, kemudian kupas
                       kulitnya. Parut atau blender dengan sedikit air, kemudian
@@ -233,7 +233,7 @@ function Resep() {
               <Collapse in={open3}>
                 <div id="example-collapse-text">
                   <p style={{ paddingTop: 15 }}>Bahan</p>
-                  <ul>
+                  <ul style={{ padding: 15 }}>
                     <li>100 gram temulawak</li>
                     <li>50 gram kencur</li>
                     <li>40 gram asam jawa</li>
@@ -243,7 +243,7 @@ function Resep() {
                     <li>2 liter air putih</li>
                   </ul>
                   <p>Cara Membuat</p>
-                  <ul>
+                  <ul style={{ padding: 15 }}>
                     <li>
                       Bersihkan temulawak dan kencur setelah itu iris-iris
                       keduanya. Sangrai irisan temulawak dan kencur di atas
@@ -291,7 +291,7 @@ function Resep() {
               <Collapse in={open4}>
                 <div id="example-collapse-text">
                   <p style={{ paddingTop: 15 }}>Bahan</p>
-                  <ul>
+                  <ul style={{ padding: 15 }}>
                     <li>1 liter air</li>
                     <li>4 ruas temu kunci</li>
                     <li>1 ruas jahe dan kunyit</li>
@@ -303,7 +303,7 @@ function Resep() {
                     <li>25 gram asam jawa.</li>
                   </ul>
                   <p>Cara Membuat</p>
-                  <ul>
+                  <ul style={{ padding: 15 }}>
                     <li>Blender temu kunci, jahe, kunyit, dan kencur</li>
                     <li>
                       Campur semua bahan di panci, kemudian panaskan hingga

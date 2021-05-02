@@ -1,7 +1,6 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
-import { Link } from 'react-router-dom'
 
 function Cards() {
   return (
@@ -20,7 +19,7 @@ function Cards() {
               src='https://alamtani.com/wp-content/uploads/2014/04/bawang-merah.jpg'
               text='Bawang merah (Allium ascalonicum)'
               label='Rhizoma'
-              path='/Bawangmerah'
+              path='/bawang-merah'
             />
           </ul>
           <ul className='cards__items'>
@@ -28,19 +27,19 @@ function Cards() {
               src='http://3.bp.blogspot.com/-WnXySINBfvo/UuPbbZPwKMI/AAAAAAAAA9g/0HUspdG63I8/s1600/tanaman+jahe.jpg'
               text='Jahe Merah (Zingiber officinale varietas)'
               label='Rhizoma'
-              path='/Jahemerah'
+              path='/jahe-merah'
             />
             <CardItem
               src='https://i2.wp.com/gdm.id/wp-content/uploads/2020/07/budidaya-kencur-1040x675.jpg'
               text='Kencur (Kaempferia galanga)'
               label='Rhizoma'
-              path='/Kencur'
+              path='/kencur'
             />
             <CardItem
               src='https://akcdn.detik.net.id/community/media/visual/2020/06/05/kunyit.jpeg?w=574'
               text='Kunyit (Curcuma longa)'
               label='Rhizoma'
-              path='/Kunyit'
+              path='/kunyit'
             />
           </ul>
         </div>

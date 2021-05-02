@@ -12,7 +12,12 @@ import Temulawak from './component/pages/Temulawak';
 import Lengkuas from './component/pages/Lengkuas';
 import Kencur from './component/pages/Kencur';
 import Jahe from './component/pages/Jahe';
-import Alang from './component/pages/Alang-Alang';
+import Alang from './component/Alang-alang';
+import AlangRhizoma from './component/pages/Alang-Alang';
+import Article from './component/pages/Article';
+import Cultivation from './component/Cards';
+import Bawangmerah from './component/Bawangmerah';
+import Jahemerah from './component/Jahemerah';
 
 function App() {
   return (
@@ -29,6 +34,11 @@ function App() {
         <Route path='/kencur' component={Kencur} />
         <Route path='/jahe' component={Jahe} />
         <Route path='/alang-alang' component={Alang} />
+        <Route path='/article' component={Article} />
+        <Route path='/cultivation' component={Cultivation} />
+        <Route path='/bawang-merah' component={Bawangmerah} />
+        <Route path='/jahe-merah' component={Jahemerah} />
+        <Route path='/rhizoma-alang-alang' component={AlangRhizoma} />
       </Switch>
     </Router>
   );

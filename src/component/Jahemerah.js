@@ -7,7 +7,7 @@ export default function Kencur () {
     <Container>
     <div className='jahemerah-main'>
       <center><h1>Penanaman Rimpang Jahe</h1></center>
-      <center><img src="http://3.bp.blogspot.com/-WnXySINBfvo/UuPbbZPwKMI/AAAAAAAAA9g/0HUspdG63I8/s1600/tanaman+jahe.jpg"></img></center>
+      <center><img alt='jahe-merah' src="http://3.bp.blogspot.com/-WnXySINBfvo/UuPbbZPwKMI/AAAAAAAAA9g/0HUspdG63I8/s1600/tanaman+jahe.jpg"></img></center>
       <p align="justify">
       Setelah benih siap ditanam, masukkan rimpang ke dalam karung atau media, banyaknya jumlah rimpang tergantung besar
       rimpang dan jumlah mata tunasnya, namun biasanya cukup menggunakan 5-10rimpang saja perkarungnya.

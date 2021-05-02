@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/esm/Container';
 import './Alang-Alang.css';
 
-export default function Alang() {
+export default function AlangRhizoma() {
   return (
     <Container>
       <div className='alang-alang-main'>

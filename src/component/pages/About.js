@@ -74,7 +74,7 @@ function About() {
             </p>
             <h3>Manfaat</h3>
             <hr></hr>
-            <ul>
+            <ul style={{ padding: 15 }}>
               <li>
                 Memberikan kemudahan kepada masyarakat dalam mendapatkan
                 informasi tentang simplisia rhizoma.

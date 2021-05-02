@@ -7,7 +7,7 @@ export default function Bawangmerah () {
     <Container>
     <div className='bawangmerah-main'>
       <center><h1>Bawang Merah (Allium cepa var ascalonicum (L) Back)</h1></center>
-      <center><img src="https://alamtani.com/wp-content/uploads/2014/04/bawang-merah.jpg"></img></center>
+      <center><img alt='bawang-merah' src="https://alamtani.com/wp-content/uploads/2014/04/bawang-merah.jpg"></img></center>
       <p align="justify">A. Benih
       Benih yang digunakan merupakan umbi mini hasil perbanyakan dari biji/TSS dan merupakan varietas unggul.Kriteria umbi mini untuk bibit, yaitu cukup umur
       tanaman (70-80 hari) tergantung pada varietas yang ditanam, cukup umur simpan (2-4 bulan), padat atau kompak dan kulit umbinya tidak luka serta warnanya berkilau. Apabila benih bawang merah belum cukup umur simpan (tunas dalam benih masih sekitar 50-60%), dilakukan pemotongan ujung umbi (± 0,5 cm atau 1/3 bagian ujungnya) dengan tujuan untuk memecahkan dormansi.
