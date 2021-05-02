@@ -8,7 +8,7 @@ import Image2 from "./../images/images-5.png";
 import ImageA from "./../images/images-about-1.jpg";
 import ImageB from "./../images/images-about-2.jpg";
 
-function Carrousell_About() {
+function CarrousellAbout() {
   return (
     <Carousel>
       <Carousel.Item>
@@ -35,7 +35,7 @@ function About() {
       <div className="m-4">
         <Row>
         <Col lg={true}>
-            <img className="w-100" src={ImageA} style={myStyle} />
+            <img className="w-100" src={ImageA} style={myStyle} alt="about" />
           </Col>
           <Col lg={true}>
             <h3>Latar Belakang</h3>
@@ -99,7 +99,7 @@ function About() {
           </Col>
           <Col lg={true}>
             <br></br>
-            <img className="w-100" src={ImageB} style={myStyle} />
+            <img className="w-100" src={ImageB} style={myStyle} alt="about 2"/>
           </Col>
         </Row>
       </div>
@@ -114,7 +114,7 @@ function About() {
           </blockquote>
         </Card.Body>
       </Card>
-      <Carrousell_About />
+      <CarrousellAbout />
     </>
   );
 }

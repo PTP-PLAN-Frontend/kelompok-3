@@ -73,17 +73,17 @@ function Home() {
     <div className="m-4">
       <Row>
         <Col lg={true}>
-          <img className="w-100" src={ImageL} style={myStyle} />
+          <img className="w-100" src={ImageL} style={myStyle} alt="home-1"/>
         </Col>
         <Col lg={true}>
-          <img className="img-home" src={ImageM}/>
+          <img className="img-home" src={ImageM} alt="home-2"/>
           <h3>Bersumber Lokal</h3>
           <p style={myStyle}>Khasiat tanaman obat sudah dikenali dengan baik oleh masyarakat lokal Indonesia. Setiap daerah memiliki cara pengolahan tersendiri dalam memanfaatkan tanaman obat tradisional. Budaya memanfaatkan sumber daya alam untuk menjaga atau meningkatkan kesehatan telah diturunkan ke setiap generasi. Pengolahan dan tujuan penggunaan yang tepat dapat memberikan efek yang baik terhadap proses pengobatan gejala penyakit atau penyakit tertentu. Perkembangan ilmu pengetahuan juga semakin mendukung perkembangan etnomedisin di dunia, termasuk Indonesia.</p>
         </Col>
       </Row>
       <Row>
         <Col lg={true}>
-        <img className="img-home" src={ImageN}/>
+        <img className="img-home" src={ImageN} alt="home-3"/>
           <h3>Obat Tradisional</h3>
           <p style={myStyle}>Menurut Organisasi Kesehatan Dunia (WHO), pengobatan tradisional yang termasuk dalam lingkup etnomedisin merupakan pengetahuan, keyakinan, dan praktik dalam pengobatan yang didasarkan pada pengalaman masyarakat adat atau etnis tertentu sebagai upaya peningkatan derajat kesehatan. Pada tahun 2013, WHO juga menaruh perhatian pada dunia etnomedisin dengan disusunnya strategi pengobatan tradisional WHO dengan tujuan, sebagai berikut (Junaidi, 2016) :
               <ul>
@@ -93,7 +93,7 @@ function Home() {
           </p>
         </Col>
         <Col lg={true}>
-          <img className="w-100" src={ImageK} style={myStyle} />
+          <img className="w-100" src={ImageK} style={myStyle} alt="home-34"/>
         </Col>
       </Row>
     </div>
