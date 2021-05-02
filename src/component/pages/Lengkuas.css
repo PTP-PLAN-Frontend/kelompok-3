@@ -1,0 +1,10 @@
+.lengkuas-main {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    justify-content: end;
+    flex-flow: wrap;
+    text-align: justify;
+    line-height: 20px;
+  }
