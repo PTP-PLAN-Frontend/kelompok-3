@@ -137,7 +137,7 @@ const Rhizoma = () => {
                 <p>Nama Latin : Imperatae Rhizoma</p>
                 Alang-alang mengandung zat berkhasiat yaitu asam kersik, damar, dan logam alkali.
               </Card.Text>
-              <center><Button variant="primary"><Link to='/rhizoma-alang-alang' className='link'>View More</Link></Button></center>
+              <center><Button variant="primary"><Link to='/alang-alang' className='link'>View More</Link></Button></center>
             </Card.Body>
           </Card>
         </Col>

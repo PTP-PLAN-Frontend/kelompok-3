@@ -2,13 +2,13 @@ import React from 'react';
 import Container from 'react-bootstrap/esm/Container';
 import './Alang-alang.css';
 
-export default function AlangAlang() {
+export default function AlangCultivation() {
   return (
     <Container>
     <div className='alang-main'>
       <center><h1>Alang-alang (Imperata cylindrica)</h1></center>
-      <center><img src="https://bibitbunga.com/wp-content/uploads/2017/02/tanaman-alang-alang.jpg" alt="alang-alang"></img></center>
-      <p align="justify">Karena itu, sebagai gulma keberadaan alang-alang sulit dikendalikan, cepat menjadi banyak, dan cepat tinggi. Keberadaannya menghalangi tanaman utama secara fisik, dan secara kimiawi, penyerapan unsur-unsur pertumbuhan tannaman utama didalam tanah menjadi terganggu.
+      <center><img src="https://bibitbunga.com/wp-content/uploads/2017/02/tanaman-alang-alang.jpg" alt="alang-alang" /></center>
+      <p align="justify">Sebagai gulma keberadaan alang-alang sulit dikendalikan, cepat menjadi banyak, dan cepat tinggi. Keberadaannya menghalangi tanaman utama secara fisik, dan secara kimiawi, penyerapan unsur-unsur pertumbuhan tannaman utama didalam tanah menjadi terganggu.
       Menurut Balit Karet Sembawa (1996), pengendalian alang-alang dapat dilakukan dengan teknik perebahan, mekanis, kultur teknis, kimia dan terpadu, seperti dibawah ini.
       
       A. Teknik Perebahan

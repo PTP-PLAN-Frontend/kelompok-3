@@ -12,17 +12,19 @@ import Temulawak from './component/pages/Temulawak';
 import Lengkuas from './component/pages/Lengkuas';
 import Kencur from './component/pages/Kencur';
 import Jahe from './component/pages/Jahe';
-import Alang from './component/Alang-alang';
 import AlangRhizoma from './component/pages/Alang-Alang';
 import Article from './component/pages/Article';
 import Cultivation from './component/Cards';
-import Bawangmerah from './component/Bawangmerah';
-import Jahemerah from './component/Jahemerah';
+import AlangCultivation from './component/Alang-alang';
+import KencurCultivation from './component/Kencur';
+import KunyitCultivation from './component/Kunyit';
+import BawangMerahCultivation from './component/Bawangmerah';
+import JaheMerahCultivation from './component/Jahemerah';
 
 function App() {
   return (
     <Router>
-      <NavbarComponent/>
+      <NavbarComponent />
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/about' component={About} />
@@ -33,12 +35,15 @@ function App() {
         <Route path='/lengkuas' component={Lengkuas} />
         <Route path='/kencur' component={Kencur} />
         <Route path='/jahe' component={Jahe} />
-        <Route path='/alang-alang' component={Alang} />
         <Route path='/article' component={Article} />
         <Route path='/cultivation' component={Cultivation} />
-        <Route path='/bawang-merah' component={Bawangmerah} />
-        <Route path='/jahe-merah' component={Jahemerah} />
-        <Route path='/rhizoma-alang-alang' component={AlangRhizoma} />
+        <Route path='/jahe-merah' component={Jahe} />
+        <Route path='/alang-alang' component={AlangRhizoma} />
+        <Route path='/cultivation-alang-alang' component={AlangCultivation} />
+        <Route path='/cultivation-kencur' component={KencurCultivation} />
+        <Route path='/cultivation-kunyit' component={KunyitCultivation} />
+        <Route path='/cultivation-jahe-merah' component={JaheMerahCultivation} />
+        <Route path='/cultivation-bawang-merah' component={BawangMerahCultivation} />
       </Switch>
     </Router>
   );

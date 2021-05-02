@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/esm/Container';
 import './Bawangmerah.css';
 
-export default function Bawangmerah () {
+export default function BawangMerahCultivation () {
   return (
     <Container>
     <div className='bawangmerah-main'>

@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/esm/Container';
 import './Jahemerah.css';
 
-export default function Kencur () {
+export default function JaheMerahCultivation () {
   return (
     <Container>
     <div className='jahemerah-main'>

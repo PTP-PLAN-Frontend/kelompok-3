@@ -2,12 +2,12 @@ import React from 'react';
 import Container from 'react-bootstrap/esm/Container';
 import './Kencur.css';
 
-export default function Kencur () {
+export default function KencurCultivation () {
   return (
     <Container>
     <div className='kencur-main'>
       <center><h1>Cara Menanam Kencur</h1></center>
-      <center><img src="https://i2.wp.com/gdm.id/wp-content/uploads/2020/07/budidaya-kencur-1040x675.jpg"></img></center>
+      <center><img src="https://i2.wp.com/gdm.id/wp-content/uploads/2020/07/budidaya-kencur-1040x675.jpg" alt="kencur" /></center>
       <p align="justify">
           1. Siapkan bibit kencur yang telah disiapkan.
           2. Buat lubang tanam dengan kedalaman 5-7 cm.

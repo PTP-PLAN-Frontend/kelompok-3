@@ -2,12 +2,12 @@ import React from 'react';
 import Container from 'react-bootstrap/esm/Container';
 import './Kencur.css';
 
-export default function Kencur () {
+export default function KunyitCultivation () {
   return (
     <Container>
     <div className='kencur-main'>
       <center><h1>Cara Menanam Kunyit</h1></center>
-      <center><img src="https://akcdn.detik.net.id/community/media/visual/2020/06/05/kunyit.jpeg?w=574"></img></center>
+      <center><img src="https://akcdn.detik.net.id/community/media/visual/2020/06/05/kunyit.jpeg?w=574" alt="kunyit" /></center>
       <p align="justify">Bibit Kunyit yang siap tanam adalah bibit yang telah disemai dan sudah muncul tunas.
       Berikut ini hal yang perlu Bunda perhatikan saat penanaman:
 
