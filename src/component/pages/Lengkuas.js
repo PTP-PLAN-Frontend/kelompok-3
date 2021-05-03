@@ -7,7 +7,11 @@ export default function Lengkuas() {
     <Container>
       <div className='lengkuas-main'>
         <center><h1>Lengkuas (Languatis Rhizoma)</h1></center>
-        <center><img src="https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/2020/02/15/3592512459.jpg" alt="lengkuas" /></center>
+        <center><img 
+        src="https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/2020/02/15/3592512459.jpg" 
+        alt="lengkuas" 
+        width="300px"
+        height="300px"/></center>
 
         <p>Nama tanaman asal : Alpinia Officinarum Hance., Aplinia Galanga L., Languas Galanga I.</p>
         <p>Nama famili       : Zingiberaceae</p>

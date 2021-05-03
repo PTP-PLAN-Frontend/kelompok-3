@@ -1,20 +1,26 @@
-@media only screen and (max-width: 1200px) {
-  .card-wrapper {
-    margin-bottom: 20px;
+.card-text {
     text-align: justify;
-  }
 }
 
-  .card-text {
-    text-align: justify;
-  }
-
-  .button-view {
+.button-view {
     color: white;
     align-content: center;
+}
+
+.link {
+    color: white;
+  text-decoration: none;
   }
 
-  .link {
-    color: white;
-    text-decoration: none;
-  }
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}

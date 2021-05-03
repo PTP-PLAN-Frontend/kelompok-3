@@ -7,7 +7,11 @@ export default function Temulawak() {
     <Container>
       <div className='temulawak-main'>
         <center><h1>Temulawak (Curcumae Rhizoma)</h1></center>
-        <center><img src="https://asset.kompas.com/crops/uelOSdnazmi0R7ixKrT9XMAPA3Q=/5x70:995x730/750x500/data/photo/2020/06/13/5ee4b01b2ced6.jpg" alt="temulawak" /></center>
+        <center><img 
+        src="https://asset.kompas.com/crops/uelOSdnazmi0R7ixKrT9XMAPA3Q=/5x70:995x730/750x500/data/photo/2020/06/13/5ee4b01b2ced6.jpg" 
+        alt="temulawak" 
+        width="300px"
+        height="300px"/></center>
 
         <p>Nama tanaman asal : Curcuma Xanthorrhiza Roxb.</p>
         <p>Nama famili       : Zingiberaceae</p>

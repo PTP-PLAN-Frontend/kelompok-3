@@ -2,60 +2,58 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
+import ImageD from "./../images/images-a.png";
+import ImageE from "./../images/images-b.png";
 
 import './Rhizoma.css'
-const Rhizoma = () => {
+import { Container } from 'react-bootstrap';
+
+function Carrousell2() {
+  const myStyle = {
+    maxWidth: "100%",
+  };
+
   return (
+    <Carousel>
+      <Carousel.Item>
+        <img className="w-100" src={ImageE} style={myStyle} alt="Third slide" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="w-100" src={ImageD} style={myStyle} alt="First slide" />
+      </Carousel.Item>
+    </Carousel>
+  );
+}
+
+function Rhizoma() {
+  const myStyle = {
+    maxWidth: "1500",
+    borderRadius:"15px",
+    fontSize: "1rem",
+    textAlign: "justify",
+    textIndent: "45px",
+  };
+  return (
+    <>
+    <Carrousell2/>
+    <br></br>
     <Container>
-      <br></br>
-      <Carousel fade>
-        <Carousel.Item>
-          <img 
-            className="d-block w-100"
-            src="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1608521969/l853ktaxuqxmn3puzbej.jpg"
-            alt="First slide"
-            width="1200"
-            height='530'
-          />
-
-          <Carousel.Caption>
-            <h1>RHIZOMA</h1>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://res.cloudinary.com/dk0z4ums3/image/upload/v1601603417/attached_image/inilah-manfaat-lengkuas-bagi-kesehatan.jpg"
-            alt="Second slide"
-            width="1200"
-            height='530'
-          />
-
-          <Carousel.Caption>
-            <h1>RHIZOMA</h1>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
-      <br></br>
-
-      <h5 align='justify'>Rhizoma merupakan nama latin dari akar tinggal atau rimpang. Adapun istilah lain yang biasa digunakan oleh masyarakat jawa,
+    <p align="justify" style={myStyle}><h5>Rhizoma merupakan nama latin dari akar tinggal atau rimpang. Adapun istilah lain yang biasa digunakan oleh masyarakat jawa,
         ialah empon-empon. Empon-empon berasal dari kata "Empu", yang berarti rimpang induk. Kata ini digunakan untuk menyebut kelompok tanaman
         yang memiliki akar tinggal. Pada umumnya, tanaman rimpang dapat dimanfaatkan untuk pengobatan tradisional dan bumbu dasar pada masakan.
-        Tanaman rimpang menyimpan banyak minyak atsiri dan alkaloid yang berkhasiat dalam pengobatan.
-      </h5>
+        Tanaman rimpang menyimpan banyak minyak atsiri dan alkaloid yang berkhasiat dalam pengobatan. Berikut adalah beberapa macam rhizoma :
+    </h5></p>
 
-      <br></br>
-      <Row>
-        <Col xs={12} md={4}>
-          <Card>
+      <Row md={3}> 
+        <Col>
+          <Card className='card'>
             <Card.Img variant="top" 
             src="https://assets.pikiran-rakyat.com/crop/0x0:0x0/750x500/photo/2020/10/09/1092541095.jpg" 
             width='100px'
-            height='250px'
+            height='300px'
             />
             <Card.Body>
               <Card.Title><center><h3>Kunyit</h3></center></Card.Title>
@@ -68,7 +66,7 @@ const Rhizoma = () => {
           </Card>
         </Col>
 
-        <Col xs={12} md={4}>
+        <Col>
           <Card>
             <Card.Img variant="top" 
             src="https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/2020/02/15/3592512459.jpg" 
@@ -86,7 +84,7 @@ const Rhizoma = () => {
           </Card>
         </Col>
 
-        <Col xs={12} md={4}>
+        <Col>
           <Card>
             <Card.Img variant="top" 
             src="https://asset.kompas.com/crops/uelOSdnazmi0R7ixKrT9XMAPA3Q=/5x70:995x730/750x500/data/photo/2020/06/13/5ee4b01b2ced6.jpg" 
@@ -103,10 +101,8 @@ const Rhizoma = () => {
             </Card.Body>
           </Card>
         </Col>
-      </Row>
 
-      <Row style={{marginTop: 20}}>
-        <Col xs={12} md={4}>
+        <Col>
           <Card> 
             <Card.Img variant="top" 
             src="https://res.cloudinary.com/dk0z4ums3/image/upload/v1603162903/attached_image/khasiat-kencur-bisa-menyaingi-efek-obat-obatan-modern.jpg" 
@@ -124,7 +120,7 @@ const Rhizoma = () => {
           </Card>
         </Col>
 
-        <Col xs={12} md={4}>
+        <Col>
           <Card>
             <Card.Img variant="top" 
             src="https://images.tokopedia.net/img/cache/700/product-1/2020/4/11/8264261/8264261_b51c7ceb-0651-49e6-8e0d-460f1fc45867_867_867.jpg" 
@@ -142,7 +138,7 @@ const Rhizoma = () => {
           </Card>
         </Col>
 
-        <Col xs={12} md={4}>
+        <Col>
           <Card>
             <Card.Img variant="top" 
             src="https://awsimages.detik.net.id/community/media/visual/2020/03/16/da18e454-90f7-4153-81d3-f9c4082bb520.jpeg?w=700&q=90" 
@@ -161,6 +157,7 @@ const Rhizoma = () => {
         </Col>
       </Row>
     </Container>
+    </>
   );
 };
 

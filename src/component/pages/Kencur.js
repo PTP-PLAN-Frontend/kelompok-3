@@ -7,7 +7,12 @@ export default function Kencur() {
     <Container>
       <div className='kencur-main'>
         <center><h1>Kencur (Kaempferiae Rhizoma)</h1></center>
-        <center><img src="https://res.cloudinary.com/dk0z4ums3/image/upload/v1603162903/attached_image/khasiat-kencur-bisa-menyaingi-efek-obat-obatan-modern.jpg" alt="kencur" /></center>
+        <center><img 
+        src="https://res.cloudinary.com/dk0z4ums3/image/upload/v1603162903/attached_image/khasiat-kencur-bisa-menyaingi-efek-obat-obatan-modern.jpg" 
+        alt="kencur" 
+        width="300px"
+        height="300px"/></center>
+        
         <p>Nama tanaman asal : Kaempferiae Galanga L.</p>
         <p>Nama famili       : Zingiberaceae</p>
         <p align='justify'>Kencur mengandung zat yang berkhasiat, yaitu alkaloid, mineral, pati serta minyak atsiri berupa senyawa sineol, dan kamferin.

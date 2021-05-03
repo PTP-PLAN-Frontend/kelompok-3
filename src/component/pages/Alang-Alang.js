@@ -10,7 +10,10 @@ export default function AlangRhizoma() {
         <center><img
           src="https://images.tokopedia.net/img/cache/700/product-1/2020/4/11/8264261/8264261_b51c7ceb-0651-49e6-8e0d-460f1fc45867_867_867.jpg"
           alt="alang-alang"
+          width="300px"
+          height="300px"
         /></center>
+        
         <p>Nama tanaman asal : Imperata Cylindrica Beauv</p>
         <p>Nama famili       : Poaccae</p>
         <p align="justify">Alang-alang memiliki zat berkhasiat yaitu asam kersik, damar, dan logam alkali. Simplisia ini tidak berbau dan tidak berasa, serta dapat digunakan

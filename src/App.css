@@ -5,6 +5,10 @@
   font-family: 'PT Sans', sans-serif;
 }
 
+.ul {
+  padding: 15px;
+}
+
 .home,
 .about,
 .article,
@@ -52,6 +56,7 @@
   color: #fff;
   font-size: 100px;
 }
+
 .home-title {
   text-align: center;
   font-weight: bold;
@@ -60,65 +65,76 @@
   margin: 10px;
   
 }
+
 .img-home{
   height: 60px;
   width: auto;
   margin: 0;
 }
+
 .card-wrapper {
   width: calc((100% - 50px)/2);
   margin-right: 20px;
   margin-bottom: 20px;
   text-align: justify;
-  }
+}
+
 .card-image{
   width: 30rem;
 }
+
 @media only screen and (max-width: 1280px) {
   .card-wrapper {
     width: calc((100% - 50px)/2);
     margin-right: 20px;
     margin-bottom: 20px;
     text-align: justify;
-    }
   }
+}
+
 @media only screen and (max-width: 1200px) {
   .card-wrapper {
     width: calc((100% - 40px)/2);
     margin-bottom: 40px;
     margin-right: 40px;
-    }
+  }
+
   .card-image{
     width: 25rem;
-    }
   }
+}
+
 @media only screen and (max-width: 949px) {
   .card-wrapper {
     -webkit-flex-flow: row wrap;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
-    }
+  }
+
   .card-image{
     width: 20rem;
-    }
   }
+}
 @media only screen and (max-width: 750px) {
   .card-wrapper {
     width: calc((100% - 20px)/2);
     margin-bottom: 20px;
     margin-right: 20px;
-    }
+  }
+
   .card-image{
       width: 15rem;
   }
-  } 
+} 
+
 @media only screen and (max-width: 599px) {
   .card-wrapper {
     width: 100%;
     margin-bottom: 40px;
     margin-right: 0;
-    }
+  }
+
   .card-image{
     width: 10rem;
-    }
   }
+}

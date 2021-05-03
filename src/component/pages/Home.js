@@ -9,9 +9,6 @@ import Collapse from "react-bootstrap/Collapse";
 import ImageA from "./../images/images-1.png";
 import ImageB from "./../images/images-2.png";
 import ImageC from "./../images/images-3.png";
-import ImageD from "./../images/images-a.png";
-import ImageE from "./../images/images-b.png";
-import ImageF from "./../images/images-c.png";
 import ImageG from "./../images/jahe -lemon.jpg";
 import ImageH from "./../images/kunyit.jpg";
 import ImageI from "./../images/temu-kunci.jpg";
@@ -27,7 +24,7 @@ function Carrousell1() {
   };
 
   return (
-    <Carousel className="Carrousell1">
+    <Carousel>
       <Carousel.Item>
         <img className="w-100" src={ImageA} style={myStyle} alt="First slide" />
       </Carousel.Item>
@@ -41,26 +38,6 @@ function Carrousell1() {
   );
 }
 
-function Carrousell2() {
-  const myStyle = {
-    maxWidth: "100%",
-  };
-
-  return (
-    <Carousel className="Carrousell1">
-      <Carousel.Item>
-        <img className="w-100" src={ImageD} style={myStyle} alt="First slide" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img className="w-100" src={ImageE} style={myStyle} alt="Third slide" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img className="w-100" src={ImageF} style={myStyle} alt="Third slide" />
-      </Carousel.Item>
-    </Carousel>
-  );
-}
-
 function Home() {
   const myStyle = {
     maxWidth: "1500",
@@ -69,7 +46,8 @@ function Home() {
   };
   return (
     <>
-    <Carrousell1 /><Carrousell2 />
+    <Carrousell1 />
+    <br></br>
     <div className="m-4">
       <Row>
         <Col lg={true}>
@@ -81,18 +59,21 @@ function Home() {
           <p style={myStyle}>Khasiat tanaman obat sudah dikenali dengan baik oleh masyarakat lokal Indonesia. Setiap daerah memiliki cara pengolahan tersendiri dalam memanfaatkan tanaman obat tradisional. Budaya memanfaatkan sumber daya alam untuk menjaga atau meningkatkan kesehatan telah diturunkan ke setiap generasi. Pengolahan dan tujuan penggunaan yang tepat dapat memberikan efek yang baik terhadap proses pengobatan gejala penyakit atau penyakit tertentu. Perkembangan ilmu pengetahuan juga semakin mendukung perkembangan etnomedisin di dunia, termasuk Indonesia.</p>
         </Col>
       </Row>
+
       <Row>
         <Col lg={true}>
+        <br></br>
         <img className="img-home" src={ImageN} alt="home-3"/>
           <h3>Obat Tradisional</h3>
           <p style={myStyle}>Menurut Organisasi Kesehatan Dunia (WHO), pengobatan tradisional yang termasuk dalam lingkup etnomedisin merupakan pengetahuan, keyakinan, dan praktik dalam pengobatan yang didasarkan pada pengalaman masyarakat adat atau etnis tertentu sebagai upaya peningkatan derajat kesehatan. Pada tahun 2013, WHO juga menaruh perhatian pada dunia etnomedisin dengan disusunnya strategi pengobatan tradisional WHO dengan tujuan, sebagai berikut (Junaidi, 2016) :
-              <ul>
+              <ul className='ul'>
                 <li>Memanfaatkan potensi pengobatan tradisional untuk kesehatan rakyat.</li>
                 <li>Mempromosikan pengobatan tradisional yang efektif dan aman kepada rakyat.</li>
               </ul>
           </p>
         </Col>
         <Col lg={true}>
+        <br></br>
           <img className="w-100" src={ImageK} style={myStyle} alt="home-34"/>
         </Col>
       </Row>
@@ -111,16 +92,16 @@ function Resep() {
     <Container>
       <div className="home-title">Resep Olahan Minuman</div>
       <Row>
-        <Col className="card-wrapper">
-          <Card className="card-image">
+        <Col>
+          <Card>
             <Card.Img variant="top" src={ImageG} />
             <Card.Body>
-              <Card.Title>Jahe Lemon</Card.Title>
+              <Card.Title><h5><center>Jahe Lemon</center></h5></Card.Title>
               <Card.Text>
                 Jahe menjadi salah satu rempah yang memiliki khasiat luar biasa
                 buat kesehatan tubuh.
               </Card.Text>
-              <Button
+              <center><Button
                 variant="primary"
                 onClick={() => setOpen(!open)}
                 aria-controls="example-collapse-text"
@@ -128,6 +109,7 @@ function Resep() {
               >
                 Klik Resep
               </Button>
+              </center>
               <Collapse in={open}>
                 <div id="example-collapse-text">
                   <p style={{ paddingTop: 15 }}>Bahan</p>
@@ -161,16 +143,16 @@ function Resep() {
           </Card>
         </Col>
 
-        <Col className="card-wrapper">
-          <Card className="card-image">
+        <Col>
+          <Card>
             <Card.Img variant="top" src={ImageH} />
             <Card.Body>
-              <Card.Title>Kunyit Asam</Card.Title>
+              <Card.Title><h5><center>Kunyit Asam</center></h5></Card.Title>
               <Card.Text>
                 Dipercaya bisa melancarkan haid, mengatasi bau badan, &
                 menghaluskan kulit.
               </Card.Text>
-              <Button
+              <center><Button
                 variant="primary"
                 onClick={() => setOpen2(!open2)}
                 aria-controls="example-collapse-text"
@@ -178,6 +160,7 @@ function Resep() {
               >
                 Klik Resep
               </Button>
+              </center>
               <Collapse in={open2}>
                 <div id="example-collapse-text">
                   <p style={{ paddingTop: 15 }}>Bahan</p>
@@ -213,16 +196,16 @@ function Resep() {
           </Card>
         </Col>
 
-        <Col className="card-wrapper">
-          <Card className="card-image">
+        <Col>
+          <Card>
             <Card.Img variant="top" src={ImageJ} />
             <Card.Body>
-              <Card.Title>Temulawak</Card.Title>
+              <Card.Title><h5><center>Temulawak</center></h5></Card.Title>
               <Card.Text>
                 Temulawak salah satu tanaman obat populer yang biasa dijadikan
                 sebagai bahan jamu.
               </Card.Text>
-              <Button
+              <center><Button
                 variant="primary"
                 onClick={() => setOpen3(!open3)}
                 aria-controls="example-collapse-text"
@@ -230,6 +213,7 @@ function Resep() {
               >
                 Klik Resep
               </Button>
+              </center>
               <Collapse in={open3}>
                 <div id="example-collapse-text">
                   <p style={{ paddingTop: 15 }}>Bahan</p>
@@ -271,16 +255,16 @@ function Resep() {
           </Card>
         </Col>
 
-        <Col className="card-wrapper">
-          <Card className="card-image">
-            <Card.Img variant="top" src={ImageI} />
+        <Col>
+          <Card>
+            <Card.Img variant="top" src={ImageI}  height='140'/>
             <Card.Body>
-              <Card.Title>Temu Kunci</Card.Title>
+              <Card.Title><h5><center>Temu Kunci</center></h5></Card.Title>
               <Card.Text>
                 Khasiat tanaman ini diketahui dapat mengobati obat batuk,
                 sebagai obat gatal, dll.
               </Card.Text>
-              <Button
+              <center><Button
                 variant="primary"
                 onClick={() => setOpen4(!open4)}
                 aria-controls="example-collapse-text"
@@ -288,6 +272,7 @@ function Resep() {
               >
                 Klik Resep
               </Button>
+              </center>
               <Collapse in={open4}>
                 <div id="example-collapse-text">
                   <p style={{ paddingTop: 15 }}>Bahan</p>

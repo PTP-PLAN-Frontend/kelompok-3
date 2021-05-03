@@ -9,7 +9,10 @@ export default function Jahe() {
         <center><h1>Jahe (Zingiberis Rhizoma)</h1></center>
         <center><img
           src="https://awsimages.detik.net.id/community/media/visual/2020/03/16/da18e454-90f7-4153-81d3-f9c4082bb520.jpeg?w=700&q=90"
-          alt="jahe" /></center>
+          alt="jahe" 
+          width="300px"
+          height="300px"/></center>
+          
         <p>Nama tanaman asal : Zingiber Officinale Roscoe</p>
         <p>Nama famili       : Zingiberaceae</p>
         <p align="justify">Jahe memiliki zat berkhasiat yaitu minyak atsiri yang mengandung zingeron, zingiberol, zingiberin, borneol, kamfer, sineol dan felandren.

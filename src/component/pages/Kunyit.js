@@ -7,7 +7,11 @@ export default function Kunyit() {
     <Container>
       <div className='kunyit-main'>
         <center><h1>Kunyit (Curcumae Domesticae Rhizoma)</h1></center>
-        <center><img src="https://assets.pikiran-rakyat.com/crop/0x0:0x0/750x500/photo/2020/10/09/1092541095.jpg" alt="kunyit" /></center>
+        <center><img 
+        src="https://assets.pikiran-rakyat.com/crop/0x0:0x0/750x500/photo/2020/10/09/1092541095.jpg" 
+        alt="kunyit" 
+        width="300px"
+        height="300px"/></center>
 
         <p>Nama tanaman asal : Curcuma Domestica Val.</p>
         <p>Nama famili       : Zingiberaceae</p>

@@ -31,13 +31,14 @@ function About() {
   };
   return (
     <>
-      <h1 className="about">ABOUT</h1>
+      <br></br>
       <div className="m-4">
         <Row>
         <Col lg={true}>
             <img className="w-100" src={ImageA} style={myStyle} alt="about" />
           </Col>
           <Col lg={true}>
+          <br></br>
             <h3>Latar Belakang</h3>
             <hr></hr>
             <p style={myStyle}>
@@ -62,6 +63,7 @@ function About() {
             </p>
           </Col>
         </Row>
+        <br></br>
         <Row>
           <Col lg={true}>
             <br></br>
@@ -72,34 +74,34 @@ function About() {
               tanaman rimpang berbasis web, sehingga dapat menambah wawasan dan
               pengetahuan masyarakat dibidang kesehatan secara efisien.
             </p>
+            <br></br>
             <h3>Manfaat</h3>
             <hr></hr>
             <ul style={{ padding: 15 }}>
-              <li>
+              <li align="justify">
                 Memberikan kemudahan kepada masyarakat dalam mendapatkan
                 informasi tentang simplisia rhizoma.
               </li>
-              <li>
+              <li align="justify">
                 Sebagai media belajar dan membantu masyarakat untuk memahami
                 kegunaan dari simplisia rhizoma.
               </li>
-              <li>
+              <li align="justify">
                 Sebagai media belajar dan membantu masyarakat untuk mengetahui
                 macam-macam simplisia rhizoma.
               </li>
-              <li>
+              <li align="justify">
                 Sebagai media belajar dan membantu masyarakat dalam membudidaya
                 tanaman obat khususnya pada tanaman rimpang.
               </li>
-              <li>
+              <li align="justify">
                 Sebagai bahan evaluasi tentang pengetahuan masyarakat pada
                 tanaman rimpang.
               </li>
             </ul>
           </Col>
           <Col lg={true}>
-            <br></br>
-            <img className="w-100" src={ImageB} style={myStyle} alt="about 2"/>
+            <img className="w-100" src={ImageB} height="500px" style={myStyle} alt="about 2"/>
           </Col>
         </Row>
       </div>
@@ -115,6 +117,7 @@ function About() {
         </Card.Body>
       </Card>
       <CarrousellAbout />
+      <br></br>
     </>
   );
 }
